@@ -6,12 +6,13 @@ Projects:
 </h3>
 <h4>
 1) Dockerizing networks-starting-setup using networks:
-  Commands:
-  1) docker network create <network name>
-  Initially creating the container for the server
-  2) docker build -t <image name> .
-  3) docker run --name <container name> --network <network name> 
+  Commands:<br>
+  1) docker network create <network name> <br>
+  Initially creating the container for the server<br>
+  2) docker build -t <image name> . <br>
+  3) docker run --name <container name> --network <network name> --rm -d -p 3000:3000 <container name> <br> ( You can add bind mounts , anonymous or named volumes to it)
   
   Container for the database - (mongodb)
+  1) docker run --rm -d --network < network name (common for shared containers) > --name <container name> mongo <br>
   
   </h4>
