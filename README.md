@@ -7,7 +7,7 @@ Projects:
 <h4>
 1) Dockerizing networks-starting-setup using networks:<br>
   Commands:<br>
-  1) docker network create <network name> <br>
+  1) docker network create <network name><br>
   Initially creating the container for the server<br>
   2) docker build -t <image name> . <br>
   3) docker run --name <container name> --network <network name> --rm -d -p 3000:3000 <container name> <br> ( You can add bind mounts , anonymous or named volumes to it)
