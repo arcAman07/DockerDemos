@@ -14,5 +14,5 @@ Projects:
   
   Container for the database - (mongodb)
   1) docker run --rm -d --network | network name (common for shared containers) | --name <container name> mongo <br>
- (It's preferred to containerize the database first , you can even expose the ports if u want to do)
+ ( It's preferred to containerize the database first , you can even expose the ports if u want to do )
   </h4>
